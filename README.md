@@ -21,7 +21,7 @@
         
 * Text : 
 
-      ```Dart
+    ```Dart
       Text(
            "My Name",
            style: TextStyle(
@@ -30,45 +30,46 @@
            fontWeight: FontWeight.bold,
            fontFamily: 'Pacifico'),
          ),
-      ```
+    ```
 
 * Divider :
 
-      ```Dart
+    ```Dart
            Divider(
              color: Colors.teal.shade100,
            ),
-      ```
+    ```
 
 * SizedBox : 
 
-      ```Dart
+    ```Dart
       SizedBox(
                   height: 20.0,
                   width: 150.0,
                   child: Divider(
                   color: Colors.teal.shade100,
                ),
-             ),```
+             ),
+     ```
 
 * Icon:
 
-      ```Dart
+    ```Dart
       Icon(
            Icons.phone,
            color: Colors.teal.shade900,
            size: 20.0,
         ),
-      ```
+    ```
 * Card margin : 
 
-      ```Dart
+    ```Dart
       margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
-      ```
+    ```
 
 * Row: 
 
-      ```Dart
+    ```Dart
       Row(
            children: [
              Icon(
@@ -88,11 +89,11 @@
              ),
            ],
          ),
-      ```
+    ```
 
 * ListTile : 
 
-      ```Dart
+   ```Dart
       ListTile(
                leading: Icon(
                  Icons.mail,
@@ -107,11 +108,11 @@
                  ),
                ),
              ),
-      ```
+    ```
 
 * Card : 
 
-      ```Dart
+    ```Dart
       Card(
              margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
              child: ListTile(
@@ -129,11 +130,11 @@
                ),
              ),
            ),
-      ```
+    ```
 
 * FloatingActionButton :
 
-   ```Dart 
+ ```Dart 
    FloatingActionButton(
        backgroundColor: Colors.yellow,
        child: Icon(
@@ -141,11 +142,11 @@
          color: Colors.blue,
        ),
      ),
-   ```
+ ```
 
 * Image Asset and Fonts config in .yaml
 
-      ```
+    ```
         assets:
           - images/
 
@@ -153,5 +154,5 @@
         - family: Pacifico
           fonts:
           - asset: fonts/Pacifico-Regular.ttf
-      ```
+    ```
  
