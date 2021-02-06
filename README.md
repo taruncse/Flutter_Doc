@@ -60,13 +60,13 @@
            size: 20.0,
         ),
       ```
-Card margin : 
+* Card margin : 
 
       ```Dart
       margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
       ```
 
-Row: 
+* Row: 
 
       ```Dart
       Row(
@@ -90,7 +90,7 @@ Row:
          ),
       ```
 
-ListTile : 
+* ListTile : 
 
       ```Dart
       ListTile(
@@ -109,7 +109,7 @@ ListTile :
              ),
       ```
 
-Card : 
+* Card : 
 
       ```Dart
       Card(
