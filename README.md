@@ -142,3 +142,16 @@
        ),
      ),
    ```
+
+* Image Asset and Fonts config in .yaml
+
+      ```
+        assets:
+          - images/
+
+        fonts:
+        - family: Pacifico
+          fonts:
+          - asset: fonts/Pacifico-Regular.ttf
+      ```
+ 
