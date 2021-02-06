@@ -10,14 +10,14 @@
 
 * CircleAvatar :
 
-      ```Dart
+   ```Dart
       CircleAvatar(
          radius: 80,
          backgroundImage: AssetImage(
          'images/ts.png',
           ),
        ),
-      ```
+    ```
         
 * Text : 
 
