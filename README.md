@@ -5,5 +5,5 @@
 * AssetImage
 ```AssetImage(
        'images/ts.png',
-   ),```
+   )```
         
