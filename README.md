@@ -47,3 +47,13 @@ SizedBox(
             color: Colors.teal.shade100,
          ),
        ),```
+
+* Icon
+
+```Dart
+Icon(
+     Icons.phone,
+     color: Colors.teal.shade900,
+     size: 20.0,
+  ),
+```
