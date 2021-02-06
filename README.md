@@ -48,7 +48,7 @@ SizedBox(
          ),
        ),```
 
-* Icon
+* Icon:
 
 ```Dart
 Icon(
@@ -56,4 +56,74 @@ Icon(
      color: Colors.teal.shade900,
      size: 20.0,
   ),
+```
+Card margin : 
+
+```Dart
+margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+```
+
+Row: 
+
+```Dart
+Row(
+     children: [
+       Icon(
+         Icons.phone,
+         color: Colors.teal.shade900,
+         size: 20.0,
+       ),
+       SizedBox(
+         width: 20,
+       ),
+       Text(
+         "+8801719144274",
+         style: TextStyle(
+           color: Colors.teal.shade900,
+           fontSize: 20.0,
+         ),
+       ),
+     ],
+   ),
+```
+
+ListTile : 
+
+```Dart
+ListTile(
+         leading: Icon(
+           Icons.mail,
+           color: Colors.teal.shade900,
+           size: 19.0,
+         ),
+         title: Text(
+           "tulshisanatithi@gmail.com",
+           style: TextStyle(
+             color: Colors.teal.shade900,
+             fontSize: 20.0,
+           ),
+         ),
+       ),
+```
+
+Card : 
+
+```Dart
+Card(
+       margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+       child: ListTile(
+         leading: Icon(
+           Icons.mail,
+           color: Colors.teal.shade900,
+           size: 19.0,
+         ),
+         title: Text(
+           "tulshisanatithi@gmail.com",
+           style: TextStyle(
+             color: Colors.teal.shade900,
+             fontSize: 20.0,
+           ),
+         ),
+       ),
+     ),
 ```
