@@ -156,3 +156,15 @@
           - asset: fonts/Pacifico-Regular.ttf
     ```
  
+* Expanded : 
+
+```
+      Expanded(
+          flex: 1,
+          child: Image(
+            image: AssetImage(
+              'images/dice1.png',
+            ),
+          ),
+        ),
+```
