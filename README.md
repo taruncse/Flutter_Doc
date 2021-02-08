@@ -7,7 +7,7 @@
 * Variables 
 
    ```Dart
-   String a;
+   String a = 'name';
    int b;
    dynamic c = 123;
    var v;
