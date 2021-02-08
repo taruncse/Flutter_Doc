@@ -144,56 +144,56 @@
 
 * FloatingActionButton : floading or fab button
 
- ```Dart 
-   FloatingActionButton(
-       backgroundColor: Colors.yellow,
-       child: Icon(
-         Icons.add,
-         color: Colors.blue,
-       ),
-     ),
- ```
+    ```Dart 
+      FloatingActionButton(
+          backgroundColor: Colors.yellow,
+          child: Icon(
+            Icons.add,
+            color: Colors.blue,
+          ),
+        ),
+    ```
 
 * Image Asset and Fonts config in .yaml : Configuration for image and fonts in pubspect.yaml file
 
- ```
-     assets:
-       - images/
+    ```
+        assets:
+          - images/
 
-     fonts:
-     - family: Pacifico
-       fonts:
-       - asset: fonts/Pacifico-Regular.ttf
- ```
+        fonts:
+        - family: Pacifico
+          fonts:
+          - asset: fonts/Pacifico-Regular.ttf
+    ```
  
 * Expanded : Equally distribute the views over the screen
 
-```Dart
-      Expanded(
-          flex: 1,
-          child: Image(
-            image: AssetImage(
-              'images/dice1.png',
-            ),
-          ),
-        ),
-```
+   ```Dart
+         Expanded(
+             flex: 1,
+             child: Image(
+               image: AssetImage(
+                 'images/dice1.png',
+               ),
+             ),
+           ),
+   ```
 
 * Asset Image : load image from asset
-```Dart
-      Image.asset(
-         'images/dice1.png',
-      )
-```
+   ```Dart
+         Image.asset(
+            'images/dice1.png',
+         )
+   ```
 * Center : Make the view in center position 
 
-```Dart
-      Center(
-          child: Row(),
-      )
-```
+   ```Dart
+         Center(
+             child: Row(),
+         )
+   ```
 * MainAxisAlignment : It defines the positions of the children on a column.
 
-```Dart
-      mainAxisAlignment: MainAxisAlignment.center
-```
+   ```Dart
+         mainAxisAlignment: MainAxisAlignment.center
+   ```
