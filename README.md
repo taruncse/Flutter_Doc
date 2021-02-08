@@ -175,3 +175,10 @@
          'images/dice1.png',
       )
 ```
+* Center :
+
+```
+      Center(
+          child: Row(),
+          )
+```
