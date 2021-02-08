@@ -52,7 +52,7 @@
              ),
      ```
 
-* Icon:
+* Icon: 
 
     ```Dart
       Icon(
@@ -61,13 +61,13 @@
            size: 20.0,
         ),
     ```
-* Card margin : 
+* Card margin : set margin of a view
 
     ```Dart
       margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
     ```
 
-* Row: 
+* Row: a row of a view , you can replace Row as Column
 
     ```Dart
       Row(
@@ -91,7 +91,7 @@
          ),
     ```
 
-* ListTile : 
+* ListTile : set view as small view like tile
 
    ```Dart
       ListTile(
@@ -110,7 +110,7 @@
              ),
     ```
 
-* Card : 
+* Card : View like card, and making automatic rounded boarder
 
     ```Dart
       Card(
@@ -132,7 +132,7 @@
            ),
     ```
 
-* FloatingActionButton :
+* FloatingActionButton : floading or fab button
 
  ```Dart 
    FloatingActionButton(
@@ -144,7 +144,7 @@
      ),
  ```
 
-* Image Asset and Fonts config in .yaml
+* Image Asset and Fonts config in .yaml : Configuration for image and fonts in pubspect.yaml file
 
  ```
      assets:
@@ -156,7 +156,7 @@
        - asset: fonts/Pacifico-Regular.ttf
  ```
  
-* Expanded : 
+* Expanded : Equally distribute the views over the screen
 
 ```
       Expanded(
@@ -169,13 +169,13 @@
         ),
 ```
 
-* Asset Image :
+* Asset Image : load image from asset
 ```
       Image.asset(
          'images/dice1.png',
       )
 ```
-* Center :
+* Center : Make the view in center position 
 
 ```
       Center(
