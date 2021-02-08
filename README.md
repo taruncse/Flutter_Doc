@@ -69,14 +69,14 @@
 
 * Padding : set padding
 
-```Dart
-      Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Image.asset(
-          'images/dice1.png',
-        ),
-      ),
-```
+   ```Dart
+         Padding(
+           padding: const EdgeInsets.all(16.0),
+           child: Image.asset(
+             'images/dice1.png',
+           ),
+         ),
+   ```
 * Row: a row of a view , you can replace Row as Column
 
     ```Dart
