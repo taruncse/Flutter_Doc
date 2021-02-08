@@ -8,7 +8,7 @@
    AssetImage( 'images/ts.png',),
    ```
 
-* CircleAvatar :
+* CircleAvatar : Circular image view
 
    ```Dart
       CircleAvatar(
@@ -19,7 +19,7 @@
        ),
     ```
         
-* Text : 
+* Text : Text view
 
     ```Dart
       Text(
@@ -32,7 +32,7 @@
          ),
     ```
 
-* Divider :
+* Divider : add a divider or between two view / widget
 
     ```Dart
            Divider(
@@ -40,7 +40,7 @@
            ),
     ```
 
-* SizedBox : 
+* SizedBox : Provide gap between two view / widget
 
     ```Dart
       SizedBox(
@@ -52,7 +52,7 @@
              ),
      ```
 
-* Icon: 
+* Icon: Use and customize material icons
 
     ```Dart
       Icon(
@@ -181,4 +181,9 @@
       Center(
           child: Row(),
       )
+```
+* MainAxisAlignment : It defines the positions of the children on a column.
+
+```Dart
+      mainAxisAlignment: MainAxisAlignment.center
 ```
