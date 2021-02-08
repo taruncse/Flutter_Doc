@@ -7,10 +7,10 @@
 * Variables 
 
    ```Dart
-         String a;
-         int b;
-         dynamic c = 123;
-         var v;
+   String a;
+   int b;
+   dynamic c = 123;
+   var v;
    ```
 
 
