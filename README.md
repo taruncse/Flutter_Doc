@@ -1,6 +1,20 @@
 # Flutter_Doc
 
 ## Topics
+
+## Dart
+-----------------------------
+* Variables 
+
+   ```Dart
+         String a;
+         int b;
+         dynamic c = 123;
+         var v;
+   ```
+
+
+##Flutter
 ------------------------------
 * AssetImage :
 
