@@ -168,3 +168,10 @@
           ),
         ),
 ```
+
+* Asset Image :
+```
+      Image.asset(
+         'images/dice1.png',
+      )
+```
