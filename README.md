@@ -158,7 +158,7 @@
  
 * Expanded : Equally distribute the views over the screen
 
-```
+```Dart
       Expanded(
           flex: 1,
           child: Image(
@@ -170,14 +170,14 @@
 ```
 
 * Asset Image : load image from asset
-```
+```Dart
       Image.asset(
          'images/dice1.png',
       )
 ```
 * Center : Make the view in center position 
 
-```
+```Dart
       Center(
           child: Row(),
       )
