@@ -25,7 +25,8 @@
    ```Dart
    // Declaration
    void changeDice() {
-       
+       // setState can be used here if it is necessary to change any 
+       // state which is dependent on the variable or action in this function
      }
 
    // calling a function
