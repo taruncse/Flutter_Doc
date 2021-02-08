@@ -197,3 +197,31 @@
    ```Dart
          mainAxisAlignment: MainAxisAlignment.center
    ```
+
+* TextButton : we can use this button instead of FlatButton
+
+   ```Dart
+         TextButton(
+           onPressed: () {
+             print("Right button pressed");
+           },
+           child: Padding(
+             padding: const EdgeInsets.all(8.0),
+             child: Image.asset(
+               'images/dice1.png',
+             ),
+           ),
+         ),
+   ```
+
+* FlatButton : Depricated
+   ```Dart
+         FlatButton(
+           onPressed: () {
+             print("Left button pressed");
+           },
+           child: Image.asset(
+             'images/dice1.png',
+           ),
+         ),
+   ```
