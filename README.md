@@ -12,7 +12,32 @@
    dynamic c = 123;
    var v;
    ```
+* Random Number
 
+   ```Dart
+   import 'dart:math';
+   
+   Random().nextInt(4);
+   ```
+
+* Function
+
+   ```Dart
+   // Declaration
+   void changeDice() {
+       
+     }
+
+   // calling a function
+   changeDice();
+   ```
+* Set State: setState is used if it is necessary to update any value / UI when the sate of the variable is changed
+
+   ```Dart
+   setState(() {
+
+    });
+   ```
 
 ## Flutter
 ------------------------------
