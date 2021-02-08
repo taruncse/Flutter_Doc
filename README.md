@@ -180,5 +180,5 @@
 ```
       Center(
           child: Row(),
-          )
+      )
 ```
