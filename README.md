@@ -268,4 +268,4 @@
 
 ## Common issues : 
 * Your Flutter application is created using an older version
-** Solution : https://stackoverflow.com/questions/64425132/how-to-fix-flutter-warning-your-flutter-application-is-created-using-an-older-v
+* * Solution : https://stackoverflow.com/questions/64425132/how-to-fix-flutter-warning-your-flutter-application-is-created-using-an-older-v
