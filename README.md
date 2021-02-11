@@ -32,7 +32,7 @@
    // calling a function
    changeDice();
    ```
-   ```
+   ```Dart
    // Declaration with variable defination
    void playMusic({int position}) {
        
