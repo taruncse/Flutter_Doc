@@ -23,7 +23,7 @@
 * Function
 
    ```Dart
-   // Declaration
+   // Declaration normal function
    void changeDice() {
        // setState can be used here if it is necessary to change any 
        // state which is dependent on the variable or action in this function
@@ -31,6 +31,15 @@
 
    // calling a function
    changeDice();
+   ```
+   ```
+   // Declaration with variable defination
+   void playMusic({int position}) {
+       
+    }
+   
+   // Calling
+   playMusic(position: 1);
    ```
 * Set State: setState is used if it is necessary to update any value / UI when the sate of the variable is changed
 
